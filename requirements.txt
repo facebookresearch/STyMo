@@ -9,7 +9,7 @@ pillow==12.2.0
 pyparsing==3.3.2
 python-dateutil==2.9.0.post0
 scipy==1.17.1
-setuptools==70.2.0
+setuptools==78.1.1
 six==1.17.0
 upc-pymotion
 
