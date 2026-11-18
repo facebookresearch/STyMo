@@ -38,3 +38,7 @@ Desktop.ini
 *.fbx
 pred*.bvh
 *results/
+
+# Thesis work: run logs, and Step Up / FineDance derived motion (film- and licence-restricted; rebuild with headless/smpl_to_stymo.py and headless/finedance_to_bvh.py)
+logs/
+motion/stepup/

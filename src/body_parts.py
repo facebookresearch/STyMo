@@ -297,6 +297,14 @@ body_parts = [
             "handWrist_right_joint",
         ],
     ],
+    # SMPL-22 (GVHMR / FineDance) after headless/smpl_to_stymo.py adds a ground Root
+    [
+        ["Root", "pelvis", "spine1", "spine2", "spine3", "neck", "head"],
+        ["left_hip", "left_knee", "left_ankle", "left_foot"],
+        ["right_hip", "right_knee", "right_ankle", "right_foot"],
+        ["left_collar", "left_shoulder", "left_elbow", "left_wrist"],
+        ["right_collar", "right_shoulder", "right_elbow", "right_wrist"],
+    ],
 ]
 
 feet_joints_names = [
@@ -311,5 +319,10 @@ feet_joints_names = [
     [
         "footBall_left_joint",
         "footBall_right_joint",
+    ],
+    # SMPL-22
+    [
+        "left_foot",
+        "right_foot",
     ],
 ]
